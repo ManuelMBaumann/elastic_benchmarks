@@ -51,7 +51,7 @@ In the folder `/data` the data set of the [Marmousi-II](https://www.google.nl/ur
 
 ![Alt text](/figs/marm2_cs.png)
 
-Solving the Marmousi-II at `freq=6` Hz can be done via:
+Solving the Marmousi-II at `freq=6` Hertz can be done via:
 
 `python3 marmousi2.py --freq=[6.0] --n_course=4 --nprocs=4`
 
