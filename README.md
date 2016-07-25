@@ -77,7 +77,7 @@ A more detailed description on the installation of nutils can be found in this [
 
 ## Declaration
 
-The [author](http://www.manuelbaumann.de) is a PhD student in Numerical Analysis at TU Delft. My research is focused on linear solvers. I highly encourage experts in geophysics to comment on the numerical results and to [get in touch](m.m.baumann@tudelft.nl).
+The [author](http://www.manuelbaumann.de) is a PhD student in Numerical Analysis at TU Delft. My research is focused on linear solvers. I highly encourage experts in geophysics to comment on the numerical results and to [get in touch](mailto:m.m.baumann@tudelft.nl).
 
 ## References
 
