@@ -1,4 +1,4 @@
-# Benchmark problems for the time-harmonic elastic wave equation
+# Two benchmark problems for the time-harmonic elastic wave equation in 2D and 3D
 
 We present two benchmark problems for the time-harmonic elastic wave equation in 2D and 3D. The aim of this repository is to make the test cases considered in Section 5 of [Baumann et al., 2016](http://www.ewi.tudelft.nl/en/the-faculty/departments/applied-mathematics/reports/) publicly available.   
 
