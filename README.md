@@ -65,7 +65,7 @@ This code is purely written in [python3](https://www.python.org/download/release
 
 The following installation steps are necessary:
 
-* Clone this repository: `git clone git@bitbucket.org:ManuelMBaumann/wedge_problems.git`
+* Clone this repository: `git clone https://github.com/ManuelMBaumann/elastic_benchmarks.git`
 * Download the Marmousi-II data set using the provided script `download_marmousi2.sh`.
 * Clone [nutils](http://www.nutils.org/) via `pip install git+https://github.com/joostvanzwieten/nutils@955bc67d219496e26b037f47855709a222850d7c`
 * Install [obspy](https://github.com/obspy/obspy/wiki) via `pip install obspy`. In particular, we use the segy reader `obspy.segy.core.readSEGY` for loading the Marmousi-II test case.
