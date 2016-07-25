@@ -14,7 +14,7 @@ A finite-element discretization is described in all detail in Section 2 of [Baum
 
 ![Alt text](/figs/discr_eqn.jpg)
 
-In contrast to the work in our publication, the resulting linear systems are solved sequentially (over k) using python's sparse solver `scipy.sparse.linalg.spsolve` without preconditioning. For large problems, we recommend to set the flag `storing=True` which stores the discretization matrices `K,C,M` in a folder `/matrices` and does *not* solve the resulting linear system. The matrices are then stored in [matrix market](http://math.nist.gov/MatrixMarket/) format.
+In contrast to the work in our publication, the resulting linear systems are here solved sequentially (over k) using python's sparse solver `scipy.sparse.linalg.spsolve` without preconditioning. For large problems, we recommend to set the flag `storing=True` which stores the discretization matrices `K,C,M` in a folder `/matrices` and does *not* solve the resulting linear system. The matrices are then stored in [matrix market](http://math.nist.gov/MatrixMarket/) format.
 
 ![Alt text](/figs/spy_plot.png)
 
