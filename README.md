@@ -69,7 +69,7 @@ The following installation steps are necessary:
 * Install [nutils](http://www.nutils.org/) via `pip install git+https://github.com/joostvanzwieten/nutils@955bc67d219496e26b037f47855709a222850d7c`
 * Run your first, low-frequency, 2D test case `python3 elast_wedge.py --ndims=2 --dx=10.0 --dz=10.0 --freq=[4.0] --nprocs=4`, and view your results with `firefox ~/public_html/elast_wedge.py/latest/log.html`.
 
-For the Marmousi-II problem, the two additional steps are required:
+For the Marmousi-II problem, two additional steps are required:
 
 * Download the Marmousi-II data set using the provided script `download_marmousi2.sh`.
 * Install [obspy](https://github.com/obspy/obspy/wiki) via `pip install obspy`. In particular, we use the segy reader `obspy.segy.core.readSEGY` for loading the data set.
