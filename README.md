@@ -25,11 +25,11 @@ The above spy plots can be obtained by setting `spy=True`. The left plot resembl
 ### 2D elastic wedge problem
 We define a new *elastic* wedge problem consisitng of three layers with varying physical parameters given in a computational domain **[0,600]x[0,1000]** meters. The parameters are given in the following table.
 
-  |parameter    | layer #1 | layer #2 | layer #3 | 
-  |-------------|----------|----------|----------|
-  |rho [kg/m^3] | 1800     | 2100     | 1950     |
-  |c_p [m/s]    | 2000     | 3000     | 2300     |
-  |c_s [m/s]    | 800      | 1600     | 1100     |
+|parameter    | layer #1 | layer #2 | layer #3 | 
+|-------------|----------|----------|----------|
+|rho [kg/m^3] | 1800     | 2100     | 1950     |
+|c_p [m/s]    | 2000     | 3000     | 2300     |
+|c_s [m/s]    | 800      | 1600     | 1100     |
 
 The python script `elast_wedge.py` with the following parameters,
 
