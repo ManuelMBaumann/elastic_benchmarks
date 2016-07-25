@@ -71,7 +71,7 @@ The following installation steps are necessary:
 
 For the Marmousi-II problem, two additional steps are required:
 
-* Download the Marmousi-II data set using the provided script `download_marmousi2.sh`.
+* Download the Marmousi-II data set using the provided script `download_marmousi2.sh` [~ 450 Mb].
 * Install [obspy](https://github.com/obspy/obspy/wiki) via `pip install obspy`. In particular, we use the segy reader `obspy.segy.core.readSEGY` for loading the data sets.
 
 
