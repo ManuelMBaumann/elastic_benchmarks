@@ -69,11 +69,11 @@ The following installation steps are necessary:
 * Download the Marmousi-II data set using the provided script `download_marmousi2.sh`.
 * Install [nutils](http://www.nutils.org/) via `pip install git+https://github.com/joostvanzwieten/nutils@955bc67d219496e26b037f47855709a222850d7c`
 * Install [obspy](https://github.com/obspy/obspy/wiki) via `pip install obspy`. In particular, we use the segy reader `obspy.segy.core.readSEGY` for loading the Marmousi-II test case.
-* Run your first, small, 2D test case `python3 elast_wedge.py --ndims=2 --dx=10.0 --dz=10.0 --freq=[4.0] --nprocs=4`
+* Run your first, small, 2D test case `python3 elast_wedge.py --ndims=2 --dx=10.0 --dz=10.0 --freq=[4.0] --nprocs=4`, and view your results with `firefox ~/public_html/elast_wedge.py/latest/log.html`.
 
 A more detailed description on the installation of nutils can be found in this [document](http://joostvanzwieten.github.io/nutils-by-example/).
 
-**Note:** All plots will be saved as .png in a folder `~/public_html/elast_wedge.py/latest/`. In the same folder, a file `log.html` contains information about the program evaluation and embeds all figures. To view your results, use for instance `firefox ~/public_html/elast_wedge.py/latest/log.html`.
+**Note:** All plots will be saved as .png in a folder `~/public_html/elast_wedge.py/latest/`. In the same folder, a file `log.html` contains information about the program evaluation and embeds all figures.
 
 ## Declaration
 
