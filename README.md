@@ -72,7 +72,7 @@ The following installation steps are necessary:
 
 A more detailed description on the installation of nutils can be found in this [document](http://joostvanzwieten.github.io/nutils-by-example/).
 
-**Note:** All plots will be saved as .png in a folder `~/public_html/elast_wedge.py/latest/`. In the same folder, a file `log.html` contains information about the program evaluation and embeds all figures.
+**Note:** All plots will be saved as .png in a folder `~/public_html/elast_wedge.py/latest/`. In the same folder, a file `log.html` contains information about the program evaluation and embeds all figures. To view your results, use for instance `firefox ~/public_html/elast_wedge.py/latest/log.html`.
 
 ## Declaration
 
