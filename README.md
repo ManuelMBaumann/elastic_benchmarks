@@ -47,7 +47,7 @@ We extend the 2D wedge problem to 3D by expending all parameters in y-direction.
 ![Alt text](/figs/wedge_3d_plots.png)
 
 ### Marmousi-II problem
-In the folder `/data` the data set of the [Marmousi-II](https://www.google.nl/url?sa=t&rct=j&q=&esrc=s&source=web&cd=4&ved=0ahUKEwiw2OqZlofOAhUUM8AKHdzNAcoQFggvMAM&url=http%3A%2F%2Fmcee.ou.edu%2Faaspi%2Fpublications%2F2006%2Fmartin_etal_TLE2006.pdf&usg=AFQjCNFIhgpermjt0pQo7m51uuHtnWrqIg&sig2=hQNDPOGvwUyhq85xi0nH_g&cad=rja) problem is stored in segy format. We consider the following subset of the problem:
+In the folder `/data` the data set of the [Marmousi-II](https://www.google.nl/url?sa=t&rct=j&q=&esrc=s&source=web&cd=4&ved=0ahUKEwiw2OqZlofOAhUUM8AKHdzNAcoQFggvMAM&url=http%3A%2F%2Fmcee.ou.edu%2Faaspi%2Fpublications%2F2006%2Fmartin_etal_TLE2006.pdf&usg=AFQjCNFIhgpermjt0pQo7m51uuHtnWrqIg&sig2=hQNDPOGvwUyhq85xi0nH_g&cad=rja) problem is stored in [segy](https://docs.obspy.org/master/packages/obspy.io.segy.html) format. We consider the following subset of the problem:
 
 ![Alt text](/figs/marm2_cs.png)
 
