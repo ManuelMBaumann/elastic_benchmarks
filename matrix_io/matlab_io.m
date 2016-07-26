@@ -3,8 +3,8 @@ close all
 clf
 
 K = mmread('K.mtx');
-C = mmread('K.mtx');
-M = mmread('K.mtx');
+C = mmread('C.mtx');
+M = mmread('M.mtx');
 
 f  = 4;
 om = 2*pi*f;
