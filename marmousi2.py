@@ -8,7 +8,7 @@ import scipy
 import numpy as np
 import matplotlib.pyplot as plt
 from scipy import sparse
-from obspy.segy.core import readSEGY
+import obspy
 from mpl_toolkits.axes_grid1 import make_axes_locatable
 
 
@@ -181,9 +181,15 @@ def main( n_course=16,      # coursening of original problem
   Nom    = len(om)
 
   print("Reading Marmousi-II data...\n")
-  segy1 = readSEGY("data/MODEL_DENSITY_1.25m.segy")
-  segy2 = readSEGY("data/MODEL_P-WAVE_VELOCITY_1.25m.segy")
-  segy3 = readSEGY("data/MODEL_S-WAVE_VELOCITY_1.25m.segy")
+  if obspy.__version__<'1.0':
+    segy1 = obspy.segy.core.readSEGY("data/MODEL_DENSITY_1.25m.segy")
+    segy2 = obspy.segy.core.readSEGY("data/MODEL_P-WAVE_VELOCITY_1.25m.segy")
+    segy3 = obspy.segy.core.readSEGY("data/MODEL_S-WAVE_VELOCITY_1.25m.segy")
+  else:
+    segy1 = obspy.io.segy.core._read_segy("data/MODEL_DENSITY_1.25m.segy")
+    segy2 = obspy.io.segy.core._read_segy("data/MODEL_P-WAVE_VELOCITY_1.25m.segy")
+    segy3 = obspy.io.segy.core._read_segy("data/MODEL_S-WAVE_VELOCITY_1.25m.segy")
+
 
   # shrink domain to [0,4000] x [0,1850]
   [verts_x, verts_z, rho_coeffs, cp_coeffs, cs_coeffs] = shrink_marmousi(segy1, segy2, segy3, n_course, 7500, 11500, 1850 )
