@@ -179,9 +179,9 @@ def main( ndims=2,          # problem dimension (2,3)
     sol = np.zeros((Nom, len(vec_basis)), dtype=complex)
     for k in range(0,Nom):
       matrix = K + 1j*om[k]*C - om[k]**2*M
+      sol[k,:] = scipy.sparse.linalg.spsolve( matrix.toscipy().tocsc(), rhs )
       if spy:
           makespyplot( matrix, 'spy_plot' )
-      sol[k,:] = scipy.sparse.linalg.spsolve( matrix.toscipy().tocsc(), rhs )
 
     if plots:  
       if(ndims ==2):

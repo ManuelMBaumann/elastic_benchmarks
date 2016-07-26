@@ -234,9 +234,9 @@ def main( n_course=16,      # coursening of original problem
     sol = np.zeros((Nom, len(vec_basis)), dtype=complex)
     for k in range(0,Nom):
       matrix = K + 1j*om[k]*C - om[k]**2*M  
+      sol[k,:] = scipy.sparse.linalg.spsolve( matrix.toscipy().tocsc(), rhs )
       if spy:
         makespyplot( matrix, 'spy_plot' )
-      sol[k,:] = scipy.sparse.linalg.spsolve( matrix.toscipy().tocsc(), rhs )
           
     if plots:
       makeplots( domain, geom, verts_x, verts_z, rho, 'rho', 'rho [kg/m**3]')
