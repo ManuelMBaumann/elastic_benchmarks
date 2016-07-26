@@ -55,7 +55,7 @@ Solving the Marmousi-II at `freq=6` Hertz can be done via:
 
 `python3 marmousi2.py --freq=[6.0] --n_course=4 --nprocs=4`
 
-Here, we use every fourth grid point of the original problem in each spatial direction which yields `dx=dz=5.0`.
+Here, we use every fourth grid point of the original problem in each spatial direction which yields `dx=dz=5.0`. The source is located at **(Lx/3,0)**.
 
 ![Alt text](/figs/marm2_f6.png)
 
