@@ -8,7 +8,7 @@ We consider the elastic wave equation in a frequency-domain formulation,
 
 ![elastic wave eqn](/figs/main_eqn.jpg)
 
-where the unknown **u** is the displacement vector at the k-th frequency. The code we present allows an inhomogeneous medium, and implements a stress-free material-air boundary condition in the north, and Sommerfeld radiation boundary conditions elsewhere.
+where the unknown **u** is the displacement vector at the k-th frequency. The code we present allows an inhomogeneous medium, and implements a stress-free material-air boundary condition in the north, and first-order Sommerfeld radiation boundary conditions elsewhere.
 
 A finite-element discretization is described in all detail in Section 2 of [Baumann et al., 2016](http://www.ewi.tudelft.nl/en/the-faculty/departments/applied-mathematics/reports/). The discrete problem yields,
 
