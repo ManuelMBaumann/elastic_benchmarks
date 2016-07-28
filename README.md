@@ -23,7 +23,7 @@ The above spy plots can be obtained by setting `spy=True`. The left plot resembl
 ## A sample of numerical test cases
 
 ### 2D elastic wedge problem
-We define a new *elastic* wedge problem consisitng of three layers with varying physical parameters given in a computational domain **[0,600]x[0,1000]** meters. The parameters are given in the following table.
+We define a new *elastic* wedge problem consisitng of three layers with varying physical parameters given in a computational domain **[0,600]x[0,1000]** meters. The parameters are given in the following table, and Lame parameters are computed [accordingly](http://scienceworld.wolfram.com/physics/LameConstants.html).
 
 |parameter    | layer #1 | layer #2 | layer #3 | 
 |-------------|----------|----------|----------|
