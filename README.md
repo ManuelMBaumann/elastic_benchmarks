@@ -87,3 +87,7 @@ The [author](http://www.manuelbaumann.de) is a PhD student in Numerical Analysis
 
 * [M. Baumann, R. Astudillo, Y. Qiu, E. Ang, M.B. Van Gijzen, and R-E. Plessix. A Preconditioned Matrix Equation Approach for the Time-Harmonic Elastic Wave Equation at Multiple Frequencies. TU Delft Technical Report (2016).](/literature/msss_idr_elast_report.pdf)
 * [M. Baumann and M.B. Van Gijzen. Nested Krylov methods for shifted linear systems. SIAM J. Sci. Comput., 37(5), S90-S112 (2015).](/literature/140979927-2.pdf)
+
+
+[![DOI](https://zenodo.org/badge/64120949.svg)](https://zenodo.org/badge/latestdoi/64120949)
+
