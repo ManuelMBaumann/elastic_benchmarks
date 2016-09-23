@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/64120949.svg)](https://zenodo.org/badge/latestdoi/64120949)
+
 # Two benchmark problems for the time-harmonic elastic wave equation in 2D and 3D
 
 We present two benchmark problems for the time-harmonic elastic wave equation in 2D and 3D. The aim of this repository is to make the test cases considered in Section 5 of [Baumann et al., 2016](http://www.ewi.tudelft.nl/en/the-faculty/departments/applied-mathematics/reports/) publicly available.   
@@ -89,5 +91,4 @@ The [author](http://www.manuelbaumann.de) is a PhD student in Numerical Analysis
 * [M. Baumann and M.B. Van Gijzen. Nested Krylov methods for shifted linear systems. SIAM J. Sci. Comput., 37(5), S90-S112 (2015).](/literature/140979927-2.pdf)
 
 
-[![DOI](https://zenodo.org/badge/64120949.svg)](https://zenodo.org/badge/latestdoi/64120949)
 
