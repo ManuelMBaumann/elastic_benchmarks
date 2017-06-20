@@ -2,7 +2,7 @@
 
 # Two benchmark problems for the time-harmonic elastic wave equation in 2D and 3D
 
-We present two benchmark problems for the time-harmonic elastic wave equation in 2D and 3D. The aim of this repository is to make the test cases considered in Section 5 of [Baumann et al., 2016](
+We present two benchmark problems for the time-harmonic elastic wave equation in 2D and 3D. The aim of this repository is to make the test cases considered in Section 5 of [Baumann et al., 2017](
 https://link.springer.com/article/10.1007/s10596-017-9667-7) publicly available.   
 
 ## Mathematical formulation
